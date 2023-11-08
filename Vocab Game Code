@@ -1,0 +1,320 @@
+<html>
+<head>
+<title></title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<style>
+body{
+
+text-align: left;
+font-family: 'Open Sans', sans-serif;
+margin: 0px;
+color: #333;
+}
+
+.header{
+ background-color: #404040;
+ padding: 30px 40px;
+ text-align: center;
+}
+
+h1{
+font-size: 2em;
+margin: 1em 0;
+font-weight: 300;
+}
+
+h3{
+font-size: 1.5em;
+margin: 1em 0;
+font-weight: 300;
+}
+
+h5{
+font-size: 1.25em;
+margin: 0.5em 0;
+font-weight: 300;
+}
+
+#Paris{display: none;}
+
+#assignmentName{
+font-size: 16.9px;
+font-weight: 600;
+text-align: left;
+}
+
+.no1{
+margin-left: 13px;
+}
+
+img{
+}
+
+button{
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+padding: 5px;
+color: white;
+outline-style: none;
+border-style: none;
+background-color: #00b300;
+border-radius: 7px;
+margin: 10px 20px;
+}
+
+button:hover{
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+padding: 5px;
+color: white;
+outline-style: none;
+border-style: none;
+background-color: #008000;
+border-radius: 7px;
+cursor: pointer;
+margin: 10px 20px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header"><img src="C:\Users\pavit\OneDrive\Pictures\LCCS vocabGame logo.jpg" alt="VocabGame logo" width="250" height="70"></img></div>
+
+<div class="tab">
+  <h3 class="tablinks" onclick="openCity(event, 'London')"  align="left" id="tabHeader">&nbsp;&nbsp;&nbsp; Assignments & Activities - Section 2 ELA</h3>
+ 
+</div>
+<hr>
+<div id="London" class="tabcontent">
+<h4 align="left" id="assignedBy">&nbsp;&nbsp;&nbsp;Assigned by T. Brodi</h3>
+<button class="tablinks" onclick="openCity(event, 'Paris')" align="left" id="assignmentName">List 7</button>
+</div>
+
+<div id="Paris" class="tabcontent">
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;1. What is the definition of Supportive?</p>
+
+<input type="radio" id="q1o1" name="q1" value="q1o1" class="no1">
+  <label for="q1o1">A person who is present at an event or incident but does not take part.</label>
+<br>
+  <input type="radio" id="q1o2" name="q1" value="q1o2">
+  <label for="q1o2">Inconsiderate and harsh to others.</label>
+<br>
+  <input type="radio" id="q1o3" name="q1" value="q1o3">
+  <label for="q1o3">Providing encouragement or emotional help.</label>
+<br>
+  <input type="radio" id="q1o4" name="q1" value="q1o4">
+  <label for="q1o4">Clever or skillful in using the hands or mind.</label>
+<br>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;2. What is the definition of Magnanimous?</p>
+
+<input type="radio" id="q2o1" name="q2" value="q2o1" class="no1">
+  <label for="q2o1">Generous or forgiving, especially toward a rival or less powerful person.</label>
+<br>
+  <input type="radio" id="q2o2" name="q2" value="q2o2">
+  <label for="q2o2">Too small or unimportant to be worth consideration.</label>
+<br>
+  <input type="radio" id="q2o3" name="q2" value="q2o3">
+  <label for="q2o3">Of extreme force, degree, or strength.</label>
+<br>
+  <input type="radio" id="q2o4" name="q2" value="q2o4">
+  <label for="q2o4">Make (something) visible or bright by shining light on it; light up.</label>
+<br>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;3. What is the definition of Compassionate?</p>
+
+<input type="radio" id="q3o1" name="q3" value="q3o1" class="no1">
+  <label for="q3o1">Having no particular interest or sympathy; unconcerned.</label>
+<br>
+  <input type="radio" id="q3o2" name="q3" value="q3o2">
+  <label for="q3o2">Write or create (a work of art, especially music or poetry).</label>
+<br>
+  <input type="radio" id="q3o3" name="q3" value="q3o3">
+  <label for="q3o3">A statement of the exact meaning of a word, especially in a dictionary.</label>
+<br>
+  <input type="radio" id="q3o4" name="q3" value="q3o4">
+  <label for="q3o4">Feeling or showing sympathy and concern for others.</label>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;4. What is the definition of Benevolent?</p>
+
+<input type="radio" id="q4o1" name="q4" value="q4o1" class="no1">
+  <label for="q4o1">Relating to, occupying, or having the character of space.</label>
+<br>
+  <input type="radio" id="q4o2" name="q4" value="q4o2">
+  <label for="q4o2">Well meaning and kindly.</label>
+<br>
+  <input type="radio" id="q4o3" name="q4" value="q4o3">
+  <label for="q4o3">A meeting at an agreed time and place, typically between two people.</label>
+<br>
+  <input type="radio" id="q4o4" name="q4" value="q4o4">
+  <label for="q4o4">The act or an instance of perusing something.</label>
+<br>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;5. What is the definition of Empathetic?</p>
+
+<input type="radio" id="q5o1" name="q5" value="q5o1" class="no1">
+  <label for="q5o1">A representation of a plan or theory in the form of an outline or model.</label>
+<br>
+  <input type="radio" id="q5o2" name="q5" value="q5o2">
+  <label for="q5o2">Showing an ability to understand and share the feelings of another.</label>
+<br>
+  <input type="radio" id="q5o3" name="q5" value="q5o3">
+  <label for="q5o3">Belonging to or appearing in summer.</label>
+<br>
+  <input type="radio" id="q5o4" name="q5" value="q5o4">
+  <label for="q5o4">Of enormous proportions or effect.</label>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;6. What is the definition of Inclusive?</p>
+
+<input type="radio" id="q6o1" name="q6" value="q6o1" class="no1">
+  <label for="q6o1">Thinly dispersed or scattered.</label>
+<br>
+  <input type="radio" id="q6o2" name="q6" value="q6o2">
+  <label for="q6o2">(Of a reaction or process) accompanied by or requiring the absorption of heat.</label>
+<br>
+  <input type="radio" id="q6o3" name="q6" value="q6o3">
+  <label for="q6o3">Not excluding any of the parties or groups involved in something.</label>
+<br>
+  <input type="radio" id="q6o4" name="q6" value="q6o4">
+  <label for="q6o4">A subtle difference in or shade of meaning, expression, or sound.</label>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;7. What is the definition of Benign?</p>
+
+<input type="radio" id="q7o1" name="q7" value="q7o1" class="no1">
+  <label for="q7o1">Gentle and kindly.</label>
+<br>
+  <input type="radio" id="q7o2" name="q7" value="q7o2">
+  <label for="q7o2">Forbidden by law, rules, or custom.</label>
+<br>
+  <input type="radio" id="q7o3" name="q7" value="q7o3">
+  <label for="q7o3">Well known, respected, and admired for past achievements.</label>
+<br>
+  <input type="radio" id="q7o4" name="q7" value="q7o4">
+  <label for="q7o4">(Of a person or their behavior) tending to attract attention because of their exuberance, confidence, and stylishness.</label>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;8. What is the definition of Genial?</p>
+
+<input type="radio" id="q8o1" name="q8" value="q8o1" class="no1">
+  <label for="q8o1">Requiring or using great exertion.</label>
+<br>
+  <input type="radio" id="q8o2" name="q8" value="q8o2">
+  <label for="q8o2">Move in an energetic or noisy manner.</label>
+<br>
+  <input type="radio" id="q8o3" name="q8" value="q8o3">
+  <label for="q8o3">Attractively unusual or old-fashioned.</label>
+<br>
+  <input type="radio" id="q8o4" name="q8" value="q8o4">
+  <label for="q8o4">Friendly and cheerful.</label>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;9. What is the definition of Valorous?</p>
+
+<input type="radio" id="q9o1" name="q9" value="q9o1" class="no1">
+  <label for="q9o1">Involving or limited to basic principles.</label>
+<br>
+  <input type="radio" id="q9o2" name="q9" value="q9o2">
+  <label for="q9o2">Showing great courage in the face of danger, especially in battle.</label>
+<br>
+  <input type="radio" id="q9o3" name="q9" value="q9o3">
+  <label for="q9o3">(Of a place) deserted of people and in a state of bleak and dismal emptiness.</label>
+<br>
+  <input type="radio" id="q9o4" name="q9" value="q9o4">
+  <label for="q9o4">Engaged in, involving, or reflecting deep or serious thought.</label>
+<br>
+<br>
+  <p>&nbsp;&nbsp;&nbsp;10. What is the definition of Amiable?</p>
+
+<input type="radio" id="q10o1" name="q10" value="q10o1" class="no1">
+  <label for="q9o1">Surrounded by; in the middle of.</label>
+<br>
+  <input type="radio" id="q10o2" name="q10" value="q10o2">
+  <label for="q10o2">Secret or dishonest activity or maneuvering.</label>
+<br>
+  <input type="radio" id="q10o3" name="q10" value="q10o3">
+  <label for="q10o3">Present, appearing, or found everywhere.</label>
+<br>
+  <input type="radio" id="q10o4" name="q10" value="q10o4">
+  <label for="q10o4">Having or displaying a friendly and pleasant manner.</label>
+<br>
+<br>
+<br>
+<button onclick="scoreTally()">Submit</button>
+</div>
+
+
+<script>
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+function scoreTally(){
+var pointCounter = 0;
+
+document.getElementById("tabHeader").click();
+document.getElementById("assignmentName").disabled = true;
+
+if (document.getElementById("q1o3").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q2o1").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q3o4").checked == true) {
+ pointCounter = pointCounter+1;
+} 
+if (document.getElementById("q4o2").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q5o2").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q6o3").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q7o1").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q8o4").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q9o1").checked == true) {
+ pointCounter = pointCounter+1;
+}
+if (document.getElementById("q10o4").checked == true) {
+ pointCounter = pointCounter+1;
+}
+
+document.getElementById("assignmentName").innerHTML = "       List 7 - Completed, Score: " + pointCounter + "/7";
+}
+
+</script>
+
+</body>
+</html>
